@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Finding Peace in a Fast Changing World
-feature-img: "img/post_img/terrarium.jpg"
 ---
+
+![]({{ site.baseurl }}/img/post_img/terrarium.jpg)
 <!--This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.-->
 *This article is food for thought for those who feel stressed all the time, and has little to do with technology.*
 

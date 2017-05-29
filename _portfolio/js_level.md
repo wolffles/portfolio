@@ -22,13 +22,15 @@ short-description: Native, its Frameworks and Libraries.
  - Practiced coding at CodeWars.
  - Started javascript in February 2017 at Bloc: Bootcamp for Developers.
 2. JQuery:
- - learned through making Bloc Jams (an itunes-esque web application)
+ - Learned through making Bloc Jams (an itunes-esque web application)
+ 3.AngularJS:
+- By making two different web applications, I've learned how to design using AngularJS
 
 ## Projects I've used Javascript with
 
 1. [Bloc Jams](https://wolffles.github.io/bloc-jams/) : an itunes-esque web application
  - languages: javascript, JQuery, and AngularJS
-2. [Bloc Jams AngularJS](https://github.com/wolffles/bloc-jams-angular) : an AangularJS version of Bloc Jams
+2. [Bloc Jams AngularJS](https://github.com/wolffles/bloc-jams-angular) : an AngularJS version of Bloc Jams
 - languages: Javascript and AngularJS
 3. [Bloc Chat](https://github.com/wolffles/bloc-chat): messaging web application that uses firebase database to store information.
  - languages: Javascript, JQuery, and AngularJS
