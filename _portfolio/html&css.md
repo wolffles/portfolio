@@ -34,4 +34,4 @@ None I prefer not to worry about the aesthetics part of a product.
 
 ## Finishing thoughts
 
-even though I don't like to design things myself, I do have an eye for design. It's just at this point in my life I am more worried about spending my time practicing functional code then making something look nice and neglecting functionality.
+Even though I don't like to design things myself, I do have an eye for design. It's just at this point in my life I am more worried about spending my time practicing functional code then making something look nice and neglecting functionality.

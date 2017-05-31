@@ -23,7 +23,7 @@ short-description: Native, its Frameworks and Libraries.
  - Started javascript in February 2017 at Bloc: Bootcamp for Developers.
 2. JQuery:
  - Learned through making Bloc Jams (an itunes-esque web application)
- 3.AngularJS:
+ 3. AngularJS:
 - By making two different web applications, I've learned how to design using AngularJS
 
 ## Projects I've used Javascript with
