@@ -12,7 +12,7 @@
   9. set up a git repository.
 
 ## the app
-<p> it might seem overwhelming when starting a project but you just have to look at the project in little steps and tasks. You don't have to work on your app in this order but this is how I went about making it.
+<p> It might seem overwhelming when starting a project but you just have to look at the project in little steps and tasks. You don't have to work on your app in this order but this is how I went about making it.</p>
 
   1. start with a welcome page.
     * you can do the next step manually or use a the generator.
@@ -94,3 +94,6 @@
     * create model with ids in foreign keys that are indexed related models
       - ie `rails g model collaborator user:references:index wiki:references:index`
     * update the relations in the models via `has_many` or `belongs_to` in our case a wiki has many collaborators, and collaborators belongs to both user and wiki, but wiki doesn't belong to collaborators
+    * we adjusted the policy to show what people can and cant see.
+    * adjusted the routes accordingly, for this project we just need create and destroy.
+    * created a create method/ destroy method and helper functions
