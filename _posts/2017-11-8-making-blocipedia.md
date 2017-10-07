@@ -7,12 +7,12 @@
   4. create the Development Database. bloc.io => module3 checkpoint10
   5. update gemfile
   6. in terminal `$ bundle install --without production`
-  7. in terminal `$ rails db:create`
+  7. in terminal `$ rails db:create` is the same as `$ rake db:create`
   8. in terminal `$ bundle install`
   9. set up a git repository.
 
 ## the app
-<p> It might seem overwhelming when starting a project but you just have to look at the project in little steps and tasks. You don't have to work on your app in this order but this is how I went about making it.</p>
+ It might seem overwhelming when starting a project but you just have to look at the project in little steps and tasks. You don't have to work on your app in this order but this is how I went about making it.
 
   1. start with a welcome page.
     * you can do the next step manually or use a the generator.
@@ -23,20 +23,22 @@
     * `$ bundle install`
     * `$ rails generate devise:install`
       - follow the instructions that follows the install
+    * `$ rails g divise:views`  
     * `$ rails g devise user`
       - will create specs, factory, model, code the route.
-    * `$ rails g divise:views`
-    * uncommented `confirmable` in the migrate file holding the devise code
-    * added in models/user.rb `:confirmable` to devise:
+    * uncomment `confirmable` in the model file holding the devise code
+    * uncomment `Confirmable` in the migrate file
     * run a `$ rake db:migrate`
     * used devises application.html.erb from their wiki for the sign in screen
 
   3. action_mailer
-    * add `config.action_mailer.default_url_options = { host: 'localhost'}` to config/environment/tests and config/environment/development
-    * use a third party to send email, included the key and password to the application.yml file
+    * add `config.action_mailer.default_url_options = { host: 'localhost'}` to config/environment/tests and config/environment/development (if you did this during the devise portion move on)
+    * use a third party to send email, included the key and password to the application.yml file. ie: sendgid
+      - add gem 'figaro' to gem file run a bundle install
       - you'll need figaro to read yml files
+      - don't manually create a application.yml file use `figaro install`
+    * touch config/initializers/setup_mail.rb
     * in initializers/setup_mail.rb add the smtp(simple mail transfer protocol) info
-    * add gem 'figaro' to gem file run a bundle install
     * make sure your user_name: and passwords are protected using yml files
     * to test to see if mailer works run server and check to see if mail is set in console after it is mailed.
 
