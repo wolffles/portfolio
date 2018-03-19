@@ -10,8 +10,9 @@
 ### for window users :https://www.postgresql.org/download/windows/
 
 #ALMOST THERE!
-### add `gem 'pg'` to both production group and development
+### add `gem 'pg'` to gemfile if not already.
 ### add `gem rails_12factor` to both as well
+### make changes to your database.yml file
 ### in terminal $`$bundle install`
 ### if you haven't started your DB server yet start it by opening a new tab in terminal and running $`postgres -D /usr/local/var/postgres`
 ### create, migrate, seed: in terminal $`RAILS_ENV=development rake db:create db:migrate db:seed` (depending on if you want this db `production` or `development` you would change those part out)
